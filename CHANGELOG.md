@@ -27,6 +27,12 @@ y este proyecto adhiere a [Versionado Semántico](https://semver.org/lang/es/).
   proyecto con múltiples versiones.
 - Carpeta `Analisis/` (con `.gitkeep`) para alojar los análisis y relevamientos
   generados.
+- `Analisis/Metologia-Base-Vectorial-Vs-IA-DB/Metologia-Base-Vectorial-Vs-IA-DB.md`
+  (v1.0, 2026-09-13): análisis que compara la ia-db generada por
+  `Iniciar-Indexado.md` con las bases vectoriales, los embeddings y el RAG;
+  define los términos (modelo, ventana de contexto, token, embedding, arnés,
+  índice simbólico), ubica la ia-db dentro del arnés, fija su finalidad, cuándo
+  conviene cada enfoque, un modelo mixto e ideas abiertas.
 
 ### Cambiado
 
@@ -45,6 +51,10 @@ y este proyecto adhiere a [Versionado Semántico](https://semver.org/lang/es/).
   `PROMPTs/Refactorizando-Repo-Nombre.md`: se añade una sección `Reglas` común
   que exige no inventar información y respaldar toda afirmación con evidencias
   verificables.
+
+- `PROMPTs/03-Crear-Analisis-Relevamientos/` renumerada a
+  `PROMPTs/02-Crear-Analisis-Relevamientos/`, sin cambios de contenido, para que
+  la numeración de `PROMPTs/` quede contigua.
 
 ### Eliminado
 
